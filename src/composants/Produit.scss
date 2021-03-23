@@ -1,0 +1,26 @@
+.Produit {
+  width: 250px;
+  height: 480px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #444;
+  color: white;
+  border: 1px solid #555;
+  overflow: hidden;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
+
+  .info {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    .nom {
+      margin: 10px;
+      height: 30px;
+      font-weight: 500;
+    }
+  }
+}

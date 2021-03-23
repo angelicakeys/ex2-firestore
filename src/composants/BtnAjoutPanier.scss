@@ -1,0 +1,15 @@
+.BtnAjoutPanier {
+  background-color: #388e3c;
+  color: white;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  
+  &.rouge {
+    background-color: red;
+  }
+}

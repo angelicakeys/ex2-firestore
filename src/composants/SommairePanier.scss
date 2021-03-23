@@ -1,0 +1,18 @@
+.SommairePanier {
+  background-color: #c51162;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  height: 40px;
+  width: auto;
+  line-height: 30px;
+  padding: 5px;
+  font-size: 0.9em;
+
+  span {
+    padding: 0 3px;
+    &:not(:last-of-type) {
+      border-right: 1px solid white;
+    }
+  }
+}

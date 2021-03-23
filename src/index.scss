@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cacher {
+  display: none;
+}
