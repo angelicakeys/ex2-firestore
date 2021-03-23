@@ -5,8 +5,9 @@ import './index.scss';
 import Appli from './composants/Appli';
 
 /******* Ex#3 - Étape I ********************************/ 
-// Ajuster la valeur de la constante suivante avec le nom exact de votre dépôt GitHub de solution
+// Ajuster la valeur de la constante suivante pour qu'elle reflète le nom exact de *votre* dépôt GitHub de solution
 const nomDepotGitHub = "iwra-ex2-firestore";
+
 
 // Ne rien modifier aux lignes suivantes 
 const baseName = (window.location.href.search(/github\.io/) !== -1) ? `/${nomDepotGitHub}` : "";

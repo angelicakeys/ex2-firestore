@@ -7,21 +7,17 @@ import { useEffect, useState } from 'react';
 
 export default function ListeProduits(props) {
   /******* Ex#3 - Étape E ********************************/ 
-  // Créer un "état" React pour les produits (utiliser useState)
+  // Créer un "état" React pour les produits (utiliser useState) et décomposer-le pour obtenir des références aux deux éléments de l'état (la variable et la fonction mutateur)
   
     
   useEffect(() => {
       // On initialise un tableau pour contenir les produits extraits de Firestore
       const tabProduits = [];
       
-      /******* Ex#3 - Étape F ********************************/ 
-      // Faire une requête à la collection de produits sur Firestore et remplir les tableau tabProduits avec les données de produits 
-      // retournées par Firestore (ne pas oublier d'ajouter l'identifiant)
-
-      
-      /******* Ex#3 - Étape G ********************************/ 
-      // Modifier l'état des produits (initialisé ci-dessus avec useState) en utilisant le mutateur et le tableau tabProduits
-      
+      /******* Ex#3 - Étape F et G ********************************/ 
+      // Étape F : Faire une requête à la collection de produits sur Firestore et remplir les tableau tabProduits avec les données de produits retournées par Firestore (ne pas oublier d'ajouter l'identifiant)
+      // Étape G : Une fois le tableau tabProduits rempli, modifier l'état des produits (initialisé ci-dessus avec useState) en utilisant le mutateur et le tableau tabProduits
+         
 
   }, []); // Ne modifiez surtout pas le tableau des dépendances à gauche : vous risquez un appel récurent sans fin à Firebase !!
 
