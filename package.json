@@ -42,5 +42,5 @@
     ]
   },
   "homepage-aide": "Avant de déployer sur GitHub Pages vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer le nom de compte et le nom de dépôt GitHub par les vôtres dans la valeur de la propriété.",
-  "homepage-inactif": "https://VOTRE_USERNAME_GITHUB.github.io/VOTRE_NOM_DE_DEPOT_GITHUB/"
+  "homepage-inactif": "https://angelicakeys.github.io/ex2-firestore/"
 }
