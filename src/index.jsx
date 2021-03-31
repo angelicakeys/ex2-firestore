@@ -6,7 +6,7 @@ import Appli from './composants/Appli';
 
 /******* Ex#3 - Étape I ********************************/ 
 // Ajuster la valeur de la constante suivante pour qu'elle reflète le nom exact de *votre* dépôt GitHub de solution
-const nomDepotGitHub = "iwra-ex2-firestore";
+const nomDepotGitHub = "ex2-firestore";
 
 
 // Ne rien modifier aux lignes suivantes 
